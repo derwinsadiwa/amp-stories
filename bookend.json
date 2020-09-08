@@ -1,0 +1,30 @@
+{
+  "bookendVersion": "v1.0",
+  "shareProviders": [
+    "facebook",
+    "twitter",
+    "email"
+  ],
+  "components": [
+    {
+      "type": "heading",
+      "text": "More to read"
+    },
+    {
+      "type": "portrait",
+      "title": "Learn about Easiest DIY Auto Repairs",
+      "url": "https://www.carparts.com/blog/15-easiest-diy-auto-repairs/",
+      "image": "assets/bookend_diy-auto-repair.jpg",
+      "category": "DIY car repair"
+    },
+    {
+      "type": "cta-link",
+      "links": [
+        {
+          "text": "Learn more",
+          "url": "https://www.carparts.com/blog/15-easiest-diy-auto-repairs/"
+        }
+      ]
+    }
+  ]
+}
