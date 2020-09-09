@@ -64,7 +64,14 @@
         grid-template-rows: 50% 50%;
       }
       .headline {
-        border-bottom: 5px solid #fc7e00;
+        border-bottom: 10px solid #FC7E00;
+      }
+      .headline-border {
+        background: #FC7E00;
+        width: 130px;
+        height: 10px;
+        display: block;
+        margin-top: 20px;
       }
       .banner-text {
         text-align: center;
@@ -101,12 +108,15 @@
         <amp-story-grid-layer template="fill">
           <amp-img class="fill-img" src="assets/1-pcvvalve.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
           <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">PCV Valve Replacement</h1>
-            <p grid-area="lower-third">The positive crankcase ventilation (PCV) valve draws and directs gases into the intake manifold to prevent them from clogging up the crankcase.</p>
+            <h1>PCV Valve Replacement <span class="headline-border" animate-in="whoosh-in-left"></span></h1>
+            <p grid-area="lower-third" animate-in="fade-in" animate-in-delay="0.6s">The positive crankcase ventilation (PCV) valve draws and directs gases into the intake manifold to prevent them from clogging up the crankcase.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -115,12 +125,15 @@
         <amp-story-grid-layer template="fill">
           <amp-img class="fill-img" src="assets/2-cabinfilter.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
           <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Cabin Filter Replacement</h1>
-            <p grid-area="lower-third">The cabin filter keeps dirt, dust, and other debris from getting into the passenger compartment via the heating and ventilation air intake.</p>
+            <h1>Cabin Filter Replacement <span class="headline-border" animate-in="whoosh-in-left"></span></h1>
+            <p grid-area="lower-third" animate-in="fade-in" animate-in-delay="0.6s">The cabin filter keeps dirt, dust, and other debris from getting into the passenger compartment via the heating and ventilation air intake.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -129,12 +142,15 @@
         <amp-story-grid-layer template="fill">
           <amp-img class="fill-img" src="assets/3-airfilter.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
           <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Air Filter Replacement</h1>
-            <p grid-area="lower-third">Usually located under the glove box in most modern cars, the air filter traps the dirt, dust, pollen, and other debris that enters through the air intake.</p>
+            <h1>Air Filter Replacement <span class="headline-border" animate-in="whoosh-in-left"></span></h1>
+            <p grid-area="lower-third" animate-in="fade-in" animate-in-delay="0.6s">Usually located under the glove box in most modern cars, the air filter traps the dirt, dust, pollen, and other debris that enters through the air intake.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -143,12 +159,15 @@
         <amp-story-grid-layer template="fill">
           <amp-img class="fill-img" src="assets/4-windshieldwiperblade.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
           <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Windshield Wiper Blade Replacement</h1>
-            <p grid-area="lower-third">A windshield wiper blade draws liquid off the glass, giving drivers a clear view of the road during certain driving conditions.</p>
+            <h1>Windshield Wiper Blade Replacement <span class="headline-border" animate-in="whoosh-in-left"></span></h1>
+            <p grid-area="lower-third" animate-in="fade-in" animate-in-delay="0.6s">A windshield wiper blade draws liquid off the glass, giving drivers a clear view of the road during certain driving conditions.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -157,12 +176,15 @@
         <amp-story-grid-layer template="fill">
           <amp-img class="fill-img" src="assets/5-battery.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Battery Replacement</h1>
-            <p grid-area="lower-third">When you turn the key, the battery starts supplying electrical power to your engine to get it started.</p>
+            <h1>Battery Replacement <span class="headline-border" animate-in="whoosh-in-left"></span></h1>
+            <p grid-area="lower-third" animate-in="fade-in" animate-in-delay="0.6s">When you turn the key, the battery starts supplying electrical power to your engine to get it started.</p>
         </amp-story-grid-layer>
       </amp-story-page>
       
@@ -171,12 +193,15 @@
         <amp-story-grid-layer template="fill">
           <amp-img class="fill-img" src="assets/6-ignitioncoil.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Ignition Coil Replacement</h1>
-            <p grid-area="lower-third">The ignition coil helps start the engine by sending high-voltage electricity to the spark plugs.</p>
+            <h1>Ignition Coil Replacement <span class="headline-border" animate-in="whoosh-in-left"></span></h1>
+            <p grid-area="lower-third" animate-in="fade-in" animate-in-delay="0.6s">The ignition coil helps start the engine by sending high-voltage electricity to the spark plugs.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -185,12 +210,15 @@
         <amp-story-grid-layer template="fill">
           <amp-img class="fill-img" src="assets/7-oilchange.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Oil Change</h1>
-            <p grid-area="lower-third">The oil keeps the engine cool and prevents contaminant buildup.</p>
+            <h1>Oil Change <span class="headline-border" animate-in="whoosh-in-left"></span></h1>
+            <p grid-area="lower-third" animate-in="fade-in" animate-in-delay="0.6s">The oil keeps the engine cool and prevents contaminant buildup.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -199,12 +227,15 @@
         <amp-story-grid-layer template="fill">
           <amp-img class="fill-img" src="assets/8-sparkplugs.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Spark Plug Replacement</h1>
-            <p grid-area="lower-third">Spark plugs ignite the air-fuel mixture in the engine using high voltage electricity from the ignition coil, setting off the chain-reaction that powers the vehicle.</p>
+            <h1>Spark Plug Replacement <span class="headline-border" animate-in="whoosh-in-left"></span></h1>
+            <p grid-area="lower-third" animate-in="fade-in" animate-in-delay="0.6s">Spark plugs ignite the air-fuel mixture in the engine using high voltage electricity from the ignition coil, setting off the chain-reaction that powers the vehicle.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -213,12 +244,15 @@
         <amp-story-grid-layer template="fill">
           <amp-img class="fill-img" src="assets/9-fuelfilter.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Fuel Filter Replacement</h1>
-            <p grid-area="lower-third">Tucked between your car's engine and fuel tank, the fuel filter serves as a screen in the fuel line.</p>
+            <h1>Fuel Filter Replacement <span class="headline-border" animate-in="whoosh-in-left"></span></h1>
+            <p grid-area="lower-third" animate-in="fade-in" animate-in-delay="0.6s">Tucked between your car's engine and fuel tank, the fuel filter serves as a screen in the fuel line.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -227,12 +261,15 @@
         <amp-story-grid-layer template="fill">
           <amp-img class="fill-img" src="assets/10-lightbulb.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Light Bulb (Headlight, Tail Light, Etc.) Replacement</h1>
-            <p grid-area="lower-third">There are several light bulbs throughout your car, such as the headlight, tail light, and interior lights.</p>
+            <h1>Light Bulb (Headlight, Tail Light, Etc.) Replacement <span class="headline-border" animate-in="whoosh-in-left"></span></h1>
+            <p grid-area="lower-third" animate-in="fade-in" animate-in-delay="0.6s">There are several light bulbs throughout your car, such as the headlight, tail light, and interior lights.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -241,12 +278,15 @@
         <amp-story-grid-layer template="fill">
           <amp-img class="fill-img" src="assets/11-drivebelt.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Drive Belt / Serpentine Belt Replacement</h1>
-            <p grid-area="lower-third">Also known as a drive belt, the serpentine belt typically provides power to the power steering system, air conditioning system, water pump, and alternator.</p>
+            <h1>Drive Belt / Serpentine Belt Replacement <span class="headline-border" animate-in="whoosh-in-left"></span></h1>
+            <p grid-area="lower-third" animate-in="fade-in" animate-in-delay="0.6s">Also known as a drive belt, the serpentine belt typically provides power to the power steering system, air conditioning system, water pump, and alternator.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -255,12 +295,15 @@
         <amp-story-grid-layer template="fill">
           <amp-img class="fill-img" src="assets/12-brakepadandrotor.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Brake Pad and Rotor Replacement</h1>
-            <p grid-area="lower-third">The brake pad and rotor help control your car’s speed and momentum, making them crucial components of a modern vehicle's braking system.</p>
+            <h1>Brake Pad and Rotor Replacement <span class="headline-border" animate-in="whoosh-in-left"></span></h1>
+            <p grid-area="lower-third" animate-in="fade-in" animate-in-delay="0.6s">The brake pad and rotor help control your car’s speed and momentum, making them crucial components of a modern vehicle's braking system.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -269,12 +312,15 @@
         <amp-story-grid-layer template="fill">
           <amp-img class="fill-img" src="assets/13-transmissionfluidservice.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Transmission Fluid Service</h1>
-            <p grid-area="lower-third">The transmission fluid helps keep the vehicle’s transmission’s internal parts cool and lubricated. It may run out or get contaminated over time, which can cause transmission failure.</p>
+            <h1>Transmission Fluid Service <span class="headline-border" animate-in="whoosh-in-left"></span></h1>
+            <p grid-area="lower-third" animate-in="fade-in" animate-in-delay="0.6s">The transmission fluid helps keep the vehicle’s transmission’s internal parts cool and lubricated. It may run out or get contaminated over time, which can cause transmission failure.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -283,12 +329,15 @@
         <amp-story-grid-layer template="fill">
           <amp-img class="fill-img" src="assets/14-coolantexchangeservice.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Coolant Exchange Service</h1>
-            <p grid-area="lower-third">The coolant, which prevents corrosion and helps maintain the optimum temperature of the engine, tends to break down over time.</p>
+            <h1>Coolant Exchange Service <span class="headline-border" animate-in="whoosh-in-left"></span></h1>
+            <p grid-area="lower-third" animate-in="fade-in" animate-in-delay="0.6s">The coolant, which prevents corrosion and helps maintain the optimum temperature of the engine, tends to break down over time.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -297,12 +346,15 @@
         <amp-story-grid-layer template="fill">
           <amp-img class="fill-img" src="assets/15-radiatorhose.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="thirds">
-            <h1 grid-area="upper-third">Radiator Hose Replacement</h1>
-            <p grid-area="lower-third">The radiator hose circulates the coolant in and out of the radiator, helping to keep the engine cool. It has various types, including the universal radiator hose and the molded radiator hose.</p>
+            <h1>Radiator Hose Replacement <span class="headline-border" animate-in="whoosh-in-left"></span></h1>
+            <p grid-area="lower-third" animate-in="fade-in" animate-in-delay="0.6s">The radiator hose circulates the coolant in and out of the radiator, helping to keep the engine cool. It has various types, including the universal radiator hose and the molded radiator hose.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -311,11 +363,14 @@
         <amp-story-grid-layer template="fill">
           <amp-img src="assets/end-cover.jpg" 
               width="720" height="1280"
-              layout="responsive">
+              layout="responsive"
+              animate-in="fly-in-right"
+              animate-in-delay="0.1s"
+              >
           </amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="vertical" class="center-text">
-          <p class="banner-text" animate-in="whoosh-in-left">Spend less, save time, and stay safe with these DIY car repairs.</p>
+          <p class="banner-text" animate-in="whoosh-in-right">Spend less, save time, and stay safe with these DIY car repairs.</p>
         </amp-story-grid-layer>
       </amp-story-page>
       <!-- Bookend -->
